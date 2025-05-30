@@ -1,0 +1,6 @@
+requirements.txt: List all necessary packages.
+numpy
+opencv-python
+matplotlib
+scikit-image
+pycryptodome
