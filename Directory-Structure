@@ -1,0 +1,29 @@
+vraw_psyframe_hybrid/
+│
+├── vraw_psyframe/ # Main source code package
+│   ├── __init__.py
+│   ├── vraw_encoder.py
+│   ├── chids.py
+│   ├── adaptive_controller.py
+│   ├── adaptive_aes.py
+│   ├── hybrid_processor.py  # New: Orchestrates the hybrid logic
+│   └── utils.py             # Optional: For helper functions (e.g., image loading)
+│
+├── examples/
+│   ├── demo_hybrid.py       # Revised demo showcasing the hybrid system
+│   └── sample_video/        # Optional: Small sample video/image sequence
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_vraw_encoder.py
+│   ├── test_chids.py
+│   └── # ... other test files
+│
+├── docs/                    # Optional: For more detailed documentation
+│   ├── concept.md
+│   └── api_reference.md
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
